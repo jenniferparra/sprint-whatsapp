@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./app/styles/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>What's UP</title>
+  </head>
+  <body>
+    <main>
+      <div class="form form-align form-background">
+
+      <h1>What's UP</h1>
+      <h2>Registrarse</h2>
+
+      <form class="form-input" id="form__login">
+        <input class="form-input-box" type="text" id="name" placeholder="Ingrese su nombre" required />
+        <input class="form-input-box" type="number" id="phone" placeholder="Ingrese su número de telefono" required/>
+        <input class="form-input-box" type="password" id="password"  placeholder="Ingrese una contraseña"  required/>
+        <input class="form-input-box " type="url" id="img" placeholder="Ingrese URL de la imagen"/>
+        <input class="form-input-box" type="text" id="info" placeholder="Bio"/>
+        <button type="submit" class="btn btn-submit">Registrarse</button>
+        <span>Ya tienes cuenta? <a href="./index.html">Inicia Sesión</a></span>
+      </form>
+      </div>
+    </main>
+  </body>
+</html>
