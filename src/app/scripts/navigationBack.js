@@ -1,4 +1,4 @@
-import { setAttributeSidebarProfile, removeAttributeSidebarProfile, hideLayout } from './showHideLayout.js'
+import { setAttributeSidebarProfile, removeAttributeSidebarProfile, hideLayout } from './layout.js'
 
 const navigationBack = document.querySelector('.navigation-back')
 const userProfile = document.querySelector('.user-profile')

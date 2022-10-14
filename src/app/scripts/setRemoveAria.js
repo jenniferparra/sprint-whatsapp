@@ -1,5 +1,5 @@
-import { showLayout, hideLayout } from './showHideLayout.js'
-import { setNameChatLayoutMain, setImageChatLayoutMain } from './setDinamicValueChat.js'
+import { showLayout, hideLayout } from './layout.js'
+import { setNameChatLayoutMain, setImageChatLayoutMain } from './dinamicChat.js'
 
 const selectContactChat = document.querySelectorAll('.container-contact-list .container-chat-contact-list')
 

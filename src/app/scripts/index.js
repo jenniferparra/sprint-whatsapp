@@ -1,5 +1,5 @@
-import { addSelectedContactChat } from "./setRemoveAriaSelected.js";
-import { navigationBackLayout } from "./navigation-back.js";
+import { addSelectedContactChat } from "./setRemoveAria.js";
+import { navigationBackLayout } from "./navigationBack.js";
 import { viewportSize } from "./viewport.js";
 
 let imobile = window.matchMedia("(min-width:768px)");
